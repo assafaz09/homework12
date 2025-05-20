@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form id="form" action="/submit-data" method="POST">
+      <label for="UserName">user name</label>
+      <input
+        type="text"
+        id="UserName"
+        name="UserName"
+        placeholder="Enter your username"
+      />
+      <label for="email adress">email address</label>
+      <input
+        type="text"
+        id="emailAdress"
+        name="emailAdress"
+        placeholder="Enter your email address"
+      />
+      <label for="password"> password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+      />
+      <label for="confirm password">confirm password</label>
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        placeholder="Confirm your password"
+      />
+
+      <button onclick="sendData()">sign up</button>
+    </form>
+
+  </body>
+</html>
